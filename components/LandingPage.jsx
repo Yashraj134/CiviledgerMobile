@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { useColorScheme } from 'react-native';
-import LightTheme from './theme/LightTheme.tsx';
-import DarkTheme from './theme/DarkTheme.tsx';
-import HighContrast from './theme/HighContrast.tsx';
+import LightTheme from '../theme/LightTheme';
+import DarkTheme from '../theme/DarkTheme';
+import HighContrast from '../theme/HighContrast';
 
 const LandingPage = () => {
   const colorScheme = useColorScheme();
